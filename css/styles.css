@@ -1,0 +1,162 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+  font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 114%;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.top-container{
+  background-image: url("C:/Users/Lenovo/Desktop/Web Development/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg");
+  background-color: #b2ebf2;
+  padding: 2rem;
+}
+.try-btn{
+  background-color: hsl(193, 100%, 96%);
+  padding: 1% 10%;
+  border-radius: 28%;
+  margin-left:0;
+}
+.row-header{
+  padding: 25px;
+}
+.container-community{
+  margin-top: 13%;
+width: 91%;
+}
+.p-community{
+ color: hsl(208, 11%, 55%);
+ padding-right: 4%;
+}
+.btn{
+  background-color: hsl(193, 100%, 96%);
+  padding: 1% 10%;
+border-radius: 28%;
+margin-left:0;
+}
+.button-getStarted{
+  margin: 17px 26% 17px 0;
+  width: max-content;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+.img-first{
+  width: 98%;
+}
+.content-container{
+  margin: 8rem 6rem;
+}
+.img-content{
+  width: 70%;
+  margin-left: 94px;
+}
+.row-content{
+  padding: 5% 5%;
+  border: outset skyblue;
+    border-radius: 2%;
+    box-shadow: -1px 0px 14px skyblue;
+}
+.col-content{
+  padding: 10% 7%;
+}
+.h2-subHeading{
+  font-weight: 600;
+font-size: 17px;
+}
+.p-content{
+  font-size: 13px;
+  color: hsl(208, 11%, 55%);
+}
+.secondlast-container{
+  position: relative;
+top: 5rem;
+}
+.build-container{
+  padding: 5%;
+  background-color: aliceblue;
+border: inset;
+border-color: steelblue;
+border-radius: 4%;
+box-shadow: -1px 0px 14px skyblue;
+
+}
+.h2-build{
+  text-align: center;
+  font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.end-container{
+  background-color: #133b5c;
+  padding: 9rem 4rem;
+  color: white;
+}
+.button-getStarted2{
+  margin:17px 26% 17px 25% ;
+  border-radius: 15%;
+  width: max-content;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+.p-copyright{
+text-align:right ;
+position: relative;
+top:8rem;
+left: 3rem;
+font-size:10px;
+}
+
+@media all and (max-width:580px) {
+  body{
+    width: 25.5rem;
+  }
+  h1{
+    font-size: 29px;
+    text-align: center;
+  }
+  .img-logo{
+    width: 100%;
+  }
+  .top-container{
+    width: 29rem;
+  }
+  .community-container{
+    text-align: left;
+  }
+  .p-community{
+    width: 21.5rem;
+    text-align: center;
+    margin-left: 22px;
+  }
+  .btn{
+    margin-left: 5rem;
+    padding: 2px 26px;
+  }
+  .img-first{
+    margin-left: 18px;
+margin-top: 10px;
+  }
+  .content-container{
+    margin: 8rem 5rem;
+  }
+  .box-content{
+    width: 19rem;
+  }
+  .build-OuterContainer{
+    position: relative;
+left: 31px;
+  }
+  .end-container{
+    width: 29rem;
+  }
+  .last-button{
+    margin:1rem 3.5rem;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+}
