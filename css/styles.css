@@ -13,7 +13,7 @@ a{
   text-decoration: none;
 }
 .top-container{
-  background-image: url(../images/bg-hero-desktop.svg);
+  background-image: url("https://ajyamkar.github.io/Huddle/images/bg-hero-desktop.svg");
   background-color: #b2ebf2;
   padding: 2rem;
 }
