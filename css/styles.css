@@ -123,6 +123,7 @@ font-size:10px;
     width: 100%;
   }
   .top-container{
+    background-image: url("https://ajyamkar.github.io/Huddle/images/bg-hero-mobile.svg");
     width: 29rem;
   }
   .community-container{
